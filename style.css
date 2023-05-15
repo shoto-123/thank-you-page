@@ -1,0 +1,51 @@
+/* ThankYouPage CSS */
+.backgroundImage {
+    background-image: url("https://images.pexels.com/photos/245240/pexels-photo-245240.jpeg?cs=srgb&dl=pexels-atbo-245240.jpg&fm=jpg");
+    filter: grayscale();
+    opacity: 20%;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .backgroundText {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    height: 500px;
+  }
+
+  .btnHome{
+    background-color: rgb(52, 167, 255);
+    padding: 5px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    margin-top: 100px;
+  }
+
+  .btnView{
+    background-color: rgb(52, 167, 255);
+    padding: 5px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+  }
+
+  /* page ends ThankYouPage */
